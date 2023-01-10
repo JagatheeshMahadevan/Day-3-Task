@@ -1,21 +1,23 @@
-Q1; For a given JSON iterate over all for loops:
+Create your own resume data in JSON format ?
 
-var Exam_results = {
-    "name": "Jagatheesh",
-    "marks": "87%",
-    "remarks": "much need more concentration in studies",
-    "subjects": ["English","Tamil","Chemistry", "Maths"]
-}
-for(var i=0;i<Exam_results.subjects.length;i++) {
-    console.log(Exam_results.subjects[i]);
-}
+Ans :
+let Resume = {
+  Name : "JAGATHEESH",
+  Age : "22",
+  Gender : "Male",
+  Qualifications : ["10th", "12th", "Degree"],
+  Experience : "2 years",
+  DateofBirth : "12.02.1998",
+ };
+   console.log(Resume); 
 
-
-output: 
-English
-Tamil
-Chemistry
-Maths
+Output :
+  Name: 'JAGATHEESH',
+  Age: '22',
+  Gender: 'Male',
+  Qualifications: [ '10th', '12th', 'Degree' ],
+  Experience: '2 years',
+  DateofBirth: '12.02.1998'
 
 
 --------------------------------------------------------------------------------------
