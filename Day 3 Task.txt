@@ -1,0 +1,107 @@
+Q1; For a given JSON iterate over all for loops:
+
+var Exam_results = {
+    "name": "Jagatheesh",
+    "marks": "87%",
+    "remarks": "much need more concentration in studies",
+    "subjects": ["English","Tamil","Chemistry", "Maths"]
+}
+for(var i=0;i<Exam_results.subjects.length;i++) {
+    console.log(Exam_results.subjects[i]);
+}
+
+
+output: 
+English
+Tamil
+Chemistry
+Maths
+
+
+--------------------------------------------------------------------------------------
+
+for in method: 
+
+var Exam_results = {
+    "name": "Jagatheesh",
+    "marks": "87%",
+    "remarks": "much need more concentration in studies",
+    "subjects": ["English","Tamil","Chemistry", "Maths"]
+}
+for(i in Exam_results.subjects) {
+    console.log(Exam_results.subjects[i]);
+}
+
+output: 
+English
+Tamil
+Chemistry
+Maths
+
+// --------------------------------------------------------------------------------------------
+
+for of method:
+
+var numbers = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 4
+  };
+  
+  for (var ans of Object.values(numbers)) {
+    console.log(ans);
+  }
+
+  output: 
+  1
+  2
+  3
+  4
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+Q2 create a resume using JSON format
+
+var resume = {
+    "Name": "Jagatheesh",
+    "Age": "23",
+    "Gender": "male",
+    "Mobile": "+91 987654321",
+    "Address": "Anna Nagar, Chennai",
+    "Location": "Chennai,India",
+    "Qualification": "Degree",
+    
+  };
+  console.log(resume);
+
+=========================================================================================
+
+OutPut:
+  
+Address
+: 
+"Anna Nagar, Chennai"
+Age
+: 
+"23"
+Gender
+: 
+"male"
+Location
+: 
+"Chennai,India"
+Mobile
+: 
+"+91 987654321"
+Name
+: 
+"Jagatheesh"
+Qualification
+: 
+"Degree"
+   
+
+
+
